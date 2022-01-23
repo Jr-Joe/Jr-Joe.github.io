@@ -5,28 +5,20 @@ font-family: 'Montserrat', sans-serif;
 margin: 0px;
 }
 
-nav{
+.container {
+    position: relative;
     text-align: center;
+    color: black;
+    font-size: x-large;
+  }
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#adam{
     color: white;
-    background-color:rgb(151, 40, 0);
-    margin: 0px;
-    padding-top: 15px;
-    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.35);
 }
-.navbar-down{
-    padding-top: 50px;
-    padding-bottom: 10px;
-    
-}
-a, a:active, a:visited{
-    color:rgb(95, 95, 255);
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-    transition: 0.3s;
-}
-.navbar-down a{
-    padding-left: 25px;
-}
+
 
